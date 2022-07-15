@@ -8,6 +8,8 @@
     "ethereum",
     "web3modal",
     "metamask",
+    "kaikas",
+    "phantom",
     "tally",
     "walletconnect",
     "portis",
@@ -90,6 +92,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
+    "caver-js": "^1.8.2",
     "detect-browser": "^5.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

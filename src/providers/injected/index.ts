@@ -61,6 +61,7 @@ import TokenPocketLogo from "../logos/tokenpocket.svg";
 // @ts-ignore
 import CoreLogo from "../logos/core.svg";
 
+
 export const FALLBACK: IProviderInfo = {
   id: "injected",
   name: "Web3",
@@ -75,6 +76,24 @@ export const METAMASK: IProviderInfo = {
   logo: MetaMaskLogo,
   type: "injected",
   check: "isMetaMask"
+};
+
+export const KAIKAS : IProviderInfo = {
+  id : "injected",
+  name : "Kaikas",
+  logo : DapperLogo,
+  type : "injected",
+  check : "isKaikas",
+  chainName : "Klaytn"
+};
+
+export const PHANTOM : IProviderInfo = {
+  id : "injected",
+  name : "Phantom",
+  logo : ClvLogo,
+  type : "injected",
+  check : "isPhantom",
+  chainName : "Solana"
 };
 
 export const SAFE: IProviderInfo = {

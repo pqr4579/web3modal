@@ -224,3 +224,20 @@ export const STARZWALLET: IProviderInfo = {
   check: "isStarzWallet"
 };
 
+export const KAIKAS : IProviderInfo = {
+  id : "kaikas",
+  name : "Kaikas",
+  logo : StarzWalletLogo,
+  type : "injected",
+  check : "isKaikas",
+  chainName : "Klaytn"
+};
+
+export const PHANTOM : IProviderInfo = {
+  id : "phantom",
+  name : "Phantom",
+  logo : BitkeepLogo,
+  type : "injected",
+  check : "isPhantom",
+  chainName : "Solana"
+};

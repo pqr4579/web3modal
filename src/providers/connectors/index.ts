@@ -19,6 +19,8 @@ import opera from "./opera";
 import web3auth from "./web3auth";
 import bitkeep from "./bitkeep";
 import starzwallet from "./starzwallet";
+import phantom from "./phantom";
+import kaikas from "./kaikas";
 
 export {
   injected,
@@ -42,5 +44,7 @@ export {
   opera,
   bitkeep,
   starzwallet,
-  web3auth
+  web3auth,
+  kaikas,
+  phantom,
 };

@@ -30,6 +30,7 @@ export interface IProviderInfo extends IProviderDisplay {
   type: string;
   check: string;
   package?: IProviderPackageOptions;
+  chainName? : string;
 }
 
 export type RequiredOption = string | string[];
